@@ -1,14 +1,5 @@
 # 🚀 Telegram UserBot
 
-<p align="center">
-  <a href="#-english">🇬🇧 English</a> | 
-  <a href="#-فارسی">🇮🇷 فارسی</a>
-</p>
-
----
-
-## 🇬🇧 English
-
 ### 📌 Overview
 A powerful and lightweight Telegram UserBot that allows you to:
 
@@ -72,60 +63,6 @@ index.py
 Removed check_and_install_dependencies
 Only checks required packages
 📁 Project Structure
-your-repo/
-├── index.py
-├── install.sh
-├── run.sh
-└── README.md
-🇮🇷 فارسی
-📌 معرفی
-
-یک یوزربات حرفه‌ای و سبک برای تلگرام با قابلیت‌های:
-
-دانلود محتوای پروتکت و خصوصی
-ذخیره خودکار پیام‌های تایم‌دار و یک‌بار دیدنی
-ذخیره فایل‌ها روی سرور
-اجرا با محیط ایزوله (venv) بدون مشکل pip
-🛠 دستورات
-دستور	توضیح
-.help	نمایش راهنما
-.alive	وضعیت ربات + آپتایم
-.ping	تست سرعت اتصال
-.stats	نمایش آمار کامل
-📥 دانلود محتوا
-دستور	توضیح
-.dl لینک	دانلود از کانال عمومی
-.dl لینک خصوصی	دانلود از کانال پرایوت
-.dl (ریپلای)	دانلود پیام ریپلای شده
-
-📌 خروجی به Saved Messages ارسال می‌شود
-
-📸 ذخیره خودکار
-
-بدون نیاز به دستور:
-
-عکس و ویدیو تایم‌دار (TTL)
-پیام‌های یک‌بار دیدنی (View Once)
-
-📌 همه به Saved Messages ارسال می‌شوند
-
-📂 مسیر ذخیره فایل‌ها
-~/bot/saved_media/
-⚙️ نصب
-git clone https://github.com/yourname/yourrepo
-cd yourrepo
-chmod +x install.sh && ./install.sh
-./run.sh
-🔧 تغییرات انجام‌شده
-install.sh
-نصب خودکار python3-venv
-اجرای کامل داخل venv
-جلوگیری از خطای pip
-ساخت فایل run.sh
-index.py
-حذف تابع نصب خودکار پکیج‌ها
-فقط بررسی وجود پکیج‌ها
-📁 ساختار پروژه
 your-repo/
 ├── index.py
 ├── install.sh
