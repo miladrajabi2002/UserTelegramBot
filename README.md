@@ -48,23 +48,17 @@ The bot automatically saves:
 
 ```bash
 ~/bot/saved_media/
-⚙️ Installation
+```
+
+---
+
+### ⚙️ Installation
+
+```bash
 git clone https://github.com/yourname/yourrepo
 cd yourrepo
 chmod +x install.sh && ./install.sh
 ./run.sh
-🔧 Changes & Fixes
-install.sh
-Automatically installs python3-venv
-Uses isolated environment (venv)
-Prevents global pip issues
-Creates run.sh for easy execution
-index.py
-Removed check_and_install_dependencies
-Only checks required packages
-📁 Project Structure
-your-repo/
-├── index.py
-├── install.sh
-├── run.sh
-└── README.md
+```
+
+---
